@@ -1,0 +1,32 @@
+*{
+    background-color: blueviolet;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* animation-name: moving;
+    animation-duration: 2s;
+
+
+    animation-fill-mode: backwards; */
+    /* animation-delay: 2s; */
+/* 
+    animation-iteration-count: infinite;
+
+    animation-direction: alternate-reverse; */
+
+
+    animation: moving 2s backwards infinite alternate-reverse;
+
+
+}
+
+@keyframes moving {
+    0%{ transform: translateX(100px); }
+
+    50%{ transform: translateY(500px);}
+
+    100%{ transform: translateX(1000px); }
+}
