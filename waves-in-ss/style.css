@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.curved-div{
+    position: relative;
+    height: 100vh;
+    background: #ff3c00;
+    color: #fff;
+    text-align: center;
+}
+
+.svg-bottom{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.svg-top{
+    display: block;
+}
