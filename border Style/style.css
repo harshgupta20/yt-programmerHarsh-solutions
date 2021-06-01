@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+
+    background: blueviolet;
+    color: white;
+
+    display: grid;
+    place-items: center;
+}
+
+.box1{
+    border: 10px none red;
+}
+
+.box2{
+    border: 10px solid red;
+}
+
+.box3{
+    border: 10px dashed red;
+}
+
+.box4{
+    border: 10px double red;
+}
+
+.box5{
+    border: 10px dotted red;
+}
+
+.box6{
+    border: 10px groove red;
+}
+
+.box7{
+    border: 10px inset red;
+}
+
+.box8{
+    border: 10px outset red;
+}
+
+.box9{
+    border: 10px ridge red;
+}

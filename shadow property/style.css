@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background: blueviolet;
+    margin: 50px;
+    transition: all .3s;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+.box1{
+    box-shadow: 0 0 30px red;
+}
+.box2{
+    box-shadow: inset 0 0 20px red;
+}
+.box3{
+    box-shadow: 5px 5px 10px red;
+}
+.box4{
+    box-shadow: -5px -5px 10px red;
+}
+.box5{
+    box-shadow: 0 0 10px 5px red;
+}
+.box6{
+    box-shadow: 0 10px 10px -5px red;
+}
